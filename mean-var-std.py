@@ -49,7 +49,7 @@ def calculate(list1):
         }
         return calculations
     else:
-        raise ValueError("List must contain nine numbers")
+        raise ValueError("List must contain nine numbers.")
 
 
 print(calculate(test_list))
